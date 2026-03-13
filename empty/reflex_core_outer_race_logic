@@ -1,0 +1,8 @@
+// reflex_core_outer_race.vhd
+digraph {
+	rankdir=LR
+	node [fillcolor=lightblue shape=box style=filled]
+	alarm_out [label=BUF fillcolor=white shape=ellipse style=filled]
+	FINAL_OUT [label=ALARM fillcolor=red shape=doublecircle style=filled]
+	alarm_out -> FINAL_OUT
+}
